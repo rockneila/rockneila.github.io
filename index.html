@@ -13,6 +13,9 @@
          height: 100%;
          width: 100vw;
          }
+         p.mynote {
+         text-align: right;
+         }
       </style>
       <script src="https://unpkg.com/leaflet@0.7.7/dist/leaflet.js"></script>
 
@@ -84,7 +87,7 @@
          var peak050 = L.marker([24.38194, 121.17507]).addTo(map);
          peak050.bindPopup("<b>火石山</b><br>3308m").openPopup();
          var peak051 = L.marker([24.4313, 121.28817]).addTo(map);
-         peak051.bindPopup("<b>池有山</b>&nbsp;&nbsp;3301m<br>2020.05 &鴨 品田池有二日<br>山頂遇到很多網美還有比基尼妹，隔天摸早黑下山不小心重裝又上了品田山頭😅<br><img src='https://i.imgur.com/rhwG6d0.jpg'>").openPopup();
+         peak051.bindPopup("<b>池有山</b>&nbsp;&nbsp;3301m<p class="mynote">2020.05 &鴨 品田池有二日</p>山頂遇到很多網美還有比基尼妹，隔天摸早黑下山不小心重裝又上了品田山頭😅<br><img src='https://i.imgur.com/rhwG6d0.jpg'>").openPopup();
          var peak052 = L.marker([24.47001, 121.24366]).addTo(map);
          peak052.bindPopup("<b>伊澤山</b><br>3296m").openPopup();
          var peak060 = L.marker([24.1493, 121.34295]).addTo(map);
