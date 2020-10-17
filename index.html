@@ -4,6 +4,7 @@
       <title>登山足跡</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
       <link rel="stylesheet" href="https://unpkg.com/leaflet@0.7.7/dist/leaflet.css" />
+      <link rel="stylesheet" href="leaflet.awesome-markers.css">
       <style>
          body {
          padding: 0;
@@ -15,6 +16,7 @@
          }
       </style>
       <script src="https://unpkg.com/leaflet@0.7.7/dist/leaflet.js"></script>
+      <script src="leaflet.awesome-markers.js"></script>
 
    </head>
 
@@ -48,7 +50,7 @@
             .openOn(map);}
          map.on('click', onMapClick);
          var peak005 = L.marker([24.3834112, 121.2317647]).addTo(map);
-         peak005.bindPopup("<b>雪山</b>&nbsp;百岳#2;五嶽-2&nbsp;3884m<br>2020.09 &Bruce 雪山西稜五日D2<br>"
+         peak005.bindPopup("<b>雪山</b>&nbsp;<ion-icon name="pricetags"></ion-icon>百岳#2;五嶽-2&nbsp;3884m<br>2020.09 &Bruce 雪山西稜五日D2<br>"
                            + "今天輕鬆耍廢，天氣大好心情也好，在山頂玩了一小時，後來下翠池也吃飽睡好午休😁<br><img src='https://i.imgur.com/6xBd9xu.jpg'>").openPopup();
          var peak015 = L.marker([24.1183430, 121.3345488]).addTo(map);
          peak015.bindPopup("<b>奇萊北峰</b>&nbsp;百岳#16;十峻-5&nbsp;3607m<br>").openPopup();
