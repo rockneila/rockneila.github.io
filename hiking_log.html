@@ -49,7 +49,7 @@
     function onMapClick(e) {
       popup
         .setLatLng(e.latlng)
-        .setContent("你點的經緯度:" + e.latlng.toString() + "<br>請點地標可以看紀錄")
+        .setContent("經緯度:" + e.latlng.toString() + "<br>請點地標可以看紀錄")
         .openOn(map);
     }
     map.on('click', onMapClick);
