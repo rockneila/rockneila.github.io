@@ -1,3 +1,29 @@
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Noto SansTC', sans-serif;
+}
+p, a, input,label, textarea, span, ul, li{
+  font-family: 'Open Sans', sans-serif;
+}
 #intro .jumbotron{
   height: 70vh;
+}
+
+#intro h1 {
+  font-size: 52px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+#intro .btn {
+  background: #b327428c;
+  padding: 9px 26px;
+  border-radius: 45px;
+}
+
+#intro .container {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
