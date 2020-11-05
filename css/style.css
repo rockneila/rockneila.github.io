@@ -1,10 +1,12 @@
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Noto SansTC', sans-serif;
 }
-p, a, input,label, textarea, span, ul, li{
+
+p, a, input, label, textarea, span, ul, li {
   font-family: 'Open Sans', sans-serif;
 }
-#intro .jumbotron{
+
+#intro .jumbotron {
   height: 70vh;
 }
 
@@ -26,4 +28,19 @@ p, a, input,label, textarea, span, ul, li{
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.container header nav {
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+header nav img {
+  width: 100px;
+  height: auto;
+}
+
+header li {
+  margin-right: 15px;
+font-size: 23px;
 }
