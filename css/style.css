@@ -44,3 +44,19 @@ header li {
   margin-right: 15px;
 font-size: 23px;
 }
+
+#second .container img{
+  width: 150px;
+}
+
+.container h3 img {
+  height: 1em;
+}
+
+/* 讓圖片置中 */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
