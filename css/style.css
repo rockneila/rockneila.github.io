@@ -8,6 +8,7 @@ p, a, input, label, textarea, span, ul, li {
 
 #intro .jumbotron {
   height: 70vh;
+  margin-bottom: 0px;
 }
 
 #intro h1 {
@@ -45,6 +46,10 @@ header li {
 font-size: 23px;
 }
 
+#second {
+  padding: 80px 0px;
+}
+
 #second .container img{
   width: 150px;
 }
@@ -59,4 +64,13 @@ font-size: 23px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+#third {
+  padding: 80px;
+  background: rgb(248,248,248);
+}
+
+#third h5 {
+  margin-bottom: 80px;
 }
