@@ -83,3 +83,18 @@ header li {
 .upper img {
   max-width: 100%;
 }
+
+.inner-text {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: rgba(255, 255, 255, 0.65);
+  background: rgba(0, 0, 0, 0.32);
+}
+
+/* 因為 innertext 是absolute
+所以他外面一層的div得relative */
+
+.upper {
+  position: relative;
+}
