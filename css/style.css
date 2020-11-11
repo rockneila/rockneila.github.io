@@ -91,11 +91,24 @@ header li {
   left: 1px;
 }
 
+.outer {
+  background: white;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+}
+
 /* 因為 innertext 是absolute
 所以他外面一層的div得relative */
 
 .upper {
   position: relative;
+}
+
+.upper img {
+  transition: .5s ease;
+}
+
+.upper:hover img {
+  opacity: 0.8;
 }
 
 .inner-text h5 {
@@ -105,6 +118,6 @@ header li {
   border-radius: 5px;
 }
 
-.lower h4 {
-  padding-top: 5px;
+.lower {
+  padding: 5px;
 }
