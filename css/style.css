@@ -1,0 +1,17 @@
+.page_title {
+  align-items: center;
+  font-size: 30px;
+  color: cadetblue;
+}
+h1{
+    color: cadetblue;
+    font-weight: bold;
+}
+
+h2{
+  color: brown;
+}
+
+p {
+    color: black;
+}
