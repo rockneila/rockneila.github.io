@@ -1,3 +1,7 @@
+*::selection {
+  background-color: green;
+}
+
 .page_title {
   align-items: center;
   font-size: 30px;
@@ -14,4 +18,21 @@ h2{
 
 p {
     color: black;
+}
+
+textarea:hover {
+  background-color: rgba(185, 179, 179, 0.582);
+}
+
+input[type="text"]:hover {
+	color : red;
+}
+
+tr:nth-child(odd) {
+	color: red;
+}
+
+/* 在 p 前面加入 >> */
+p::before {
+  content: ">>";
 }
