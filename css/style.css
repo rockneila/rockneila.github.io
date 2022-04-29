@@ -3,9 +3,8 @@
 }
 
 .page_title {
-  align-items: center;
-  font-size: 30px;
-  color: cadetblue;
+  text-decoration: none;
+  color:brown;
 }
 h1{
     color: cadetblue;
