@@ -2,10 +2,6 @@
   background-color: green;
 }
 
-.page_title {
-  text-decoration: none;
-  color:brown;
-}
 h1{
     color: cadetblue;
     font-weight: bold;
@@ -37,3 +33,9 @@ tr:nth-child(odd) {
 p::before {
   content: ">>";
 }
+
+.page_title {
+  text-decoration: none;
+  color:brown;
+}
+
