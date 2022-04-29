@@ -10,6 +10,8 @@
 h1{
     color: cadetblue;
     font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: inherit:
 }
 
 h2{
