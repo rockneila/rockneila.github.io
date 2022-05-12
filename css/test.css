@@ -1,0 +1,43 @@
+div.container {
+    border: 3px solid black;
+    display: flex;
+    /* 預設是no-wrap，當縮小到比寬還小時，會自動縮小。
+    設成wrap，則會被擠到下一排。 */
+    flex-wrap: wrap;
+}
+
+.box {
+    /* width: 200px; */
+    height: 200px;
+}
+
+.box1 {
+    /* 被擠壓時的成長倍率 */
+    flex-grow: 1;
+    flex-basis: 150px;
+    background-color: antiquewhite;
+}
+
+.box2 {
+    flex-grow: 1;
+    flex-basis: 150px;
+    background-color: aqua;
+}
+
+.box3 {
+    flex-grow: 1;
+    flex-basis: 150px;
+    background-color: aquamarine;
+}
+
+.box4 {
+    flex-grow: 1;
+    flex-basis: 150px;
+    background-color: azure;
+}
+
+.box5 {
+    flex-grow: 1;
+    flex-basis: 150px;
+    background-color: beige;
+}
