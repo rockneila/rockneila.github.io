@@ -4,12 +4,14 @@ div.container {
     /* 預設是no-wrap，當縮小到比寬還小時，會自動縮小。
     設成wrap，則會被擠到下一排。 */
     flex-wrap: wrap;
-    justify-content: center;
+
 }
 
 .box {
-    width: 100px;
-    height: 100px;
+    /* width: 100px; */
+    height: 200px;
+    /* 縮寫 grow shrink basic */
+    flex: 1 1 200px;
 }
 
 .box1 {
