@@ -1,3 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "myfont"; /* 名稱隨意取 */
+  src: url(./XXX.ttf);
+}
+
+* {
+  font-family: "myfont", sans-serif; /* 設定沒有字形的第二順位 */
+}
+
 *::selection {
   background-color: green;
 }
@@ -21,23 +34,23 @@
   top: 40%;
 }
 
-h1{
-    color: cadetblue;
-    font-weight: bold;
-    text-decoration: underline;
-    text-decoration-color: inherit:
+h1 {
+  color: cadetblue;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: inherit;
 }
 h1::before {
-    content:"➛";
+  content: "➛";
 }
 
-h2{
+h2 {
   color: darkgreen;
 }
 
 p {
-    text-indent: 32px;
-    color: black;
+  text-indent: 32px;
+  color: black;
 }
 
 textarea:hover {
@@ -45,10 +58,12 @@ textarea:hover {
 }
 
 input[type="text"]:hover {
-	color : red;
+  color: red;
 }
 
-tr, td, th {
+tr,
+td,
+th {
   color: white;
   border: 1px;
   border-color: black;
@@ -57,7 +72,7 @@ tr, td, th {
 }
 
 tr:nth-child(1) {
-	color: rgba(179, 228, 115, 0.363);
+  color: rgba(179, 228, 115, 0.363);
 }
 
 /* 在 p 前面加入 >> */
